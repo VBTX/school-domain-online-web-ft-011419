@@ -2,10 +2,10 @@ class School
   attr_reader :name
 
 
-
+roster = Hash.new
   def initialize(name)
     @name = name
-    roster = Hash.new
+
   end
 
 end
