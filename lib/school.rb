@@ -9,6 +9,7 @@ class School
   end
 
   def add_student(name, grade)
+    School.roster[age] = name
   end
 
 end
