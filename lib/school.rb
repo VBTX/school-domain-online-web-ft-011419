@@ -17,7 +17,7 @@ class School
   end
 
   def sort
-    roster.map do [k, v]
+    roster.map do |k, v|
       roster[k] = v.sort
     end
     return roster
