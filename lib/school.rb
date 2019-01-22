@@ -1,5 +1,5 @@
 class School
-  attr_reader :name
+  attr_accessor :name. :roster
 
   def roster
     @roster = Hash.new
