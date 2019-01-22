@@ -20,6 +20,6 @@ class School
     roster.each do [k, v]
       roster[k] = v.sort
     end
-    roster
+    return roster
   end
 end
